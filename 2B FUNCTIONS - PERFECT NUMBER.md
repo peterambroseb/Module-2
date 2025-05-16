@@ -4,8 +4,6 @@
 ### AIM  
 To write a Python program to check if a number is a Perfect number using the concept of functions.
 
----
-
 ### ALGORITHM
 
 1. Begin the program.  
@@ -18,15 +16,24 @@ To write a Python program to check if a number is a Perfect number using the con
     - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
 5. Terminate the program.
 
----
-
 ### PROGRAM
-```
-#Reg.No:
-#Name:
-#Add your Code Here
+
 
 ```
+n = int(input())
+sum1 = 0
+for i in range(1, n):
+    if(n % i == 0):
+        sum1 = sum1 + i
+if (sum1 == n):
+    print("The number is a Perfect number!")
+else:
+    print("The number is not a Perfect number!")
+```
+
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/9785e547-042a-4e65-8a2d-4a8ab33b6f75)
+
 
 ### RESULT
+Thus the Python program to check if a number is a Perfect number using the concept of functions is implemented and excecuted successfully.
