@@ -1,37 +1,36 @@
 # Exp.No:2e  
-## SEB - Username and Password Validation using Python
+## SEB - COMPUTING POWER
+
+---
 
 ### AIM  
-To write a Python program that checks whether the entered username and password match predefined values.
+To write a Python program to compute the power of a given number using an appropriate built-in function.
 
+---
 
 ### ALGORITHM
 
-1. Start the program.
-2.Prompt the user to enter a username and store it in a variable.
-3.Prompt the user to enter a password and store it in another variable.
-4.Compare both the username and password with predefined values (username = "saveetha" and password = "saveetha12").
-5.If both match:
-Print "Login successfull".
-6.Else:
-Print "Login Failed".
-7.End the program.
+1. Begin the program.  
+2. Input the base number (`base`) from the user.  
+3. Input the exponent number (`exp`) from the user.  
+4. Use the built-in `pow()` function to compute the base raised to the power of the exponent.  
+5. Print the result using the `print()` function, displaying the power in a formatted output.  
+6. Terminate the program.
 
+---
 
 ### PROGRAM
 
 ```
-a=str(input())
-b=str(input())
-if(a=='saveetha' and b=='saveetha12'):
-    print("Login successfull")
-else:
-    print("Login Failed")
+a=int(input())
+b=int(input())
+power=lambda a,b:pow(a,b)
+print("Power of the given number is:",power(a,b))
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/48cea1b4-ec01-45f5-8134-13151d4036d0)
+![5](https://github.com/user-attachments/assets/bb87c2bb-fa26-4ab9-90dd-b148fcb38f1b)
 
 
+---
 ### RESULT
-Thus the python program to checks whether the entered username and password match predefined values is implemented and excecuted successfully.
-
+Thus a Python program to compute the power of a given number using an appropriate built-in function has been implemented and executed successfully.
